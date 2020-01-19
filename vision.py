@@ -29,7 +29,7 @@ def get_labels(filename = "rs118.jpg"):
     labels = response.label_annotations
     print('Labels:')
     for label in labels:
-        print(label.description)
+        #print(label.description)
         if label.description == "T-shirt":
             flabel = "T-shirt"
             break
@@ -53,26 +53,26 @@ def computeEmissions(shirtType):
     polyesterComp = int(input("% of Polyester: "))/100  
     nylonComp = int(input("% of Nylon: "))/100
     
-    weights = {tshirt: 130, shirt: 160, hoodie: 250, blouse: 200, outerwear: 240}
+    weights={'tshirt': 130, 'shirt': 160, 'hoodie': 250, 'blouse': 200, 'outerwear': 240}
     
     for num in weights:
         if shirtType == 'T-shirt':
-            cotton_tshirt = weights[tshirt] * cottonComp
-            polyester_tshirt = weight[tshirt] * polyesterComp
-            nylon_tshirt = weight[tshirt] * nylonComp
+            cotton_tshirt = weights['tshirt'] * cottonComp
+            polyester_tshirt = weights['tshirt'] * polyesterComp
+            nylon_tshirt = weights['tshirt'] * nylonComp
             
         if shirtType == 'Hoodie':
             cotton_hoodie = weights[hoodie] * cottonComp
-            polyester_hoodie = weight[hoodie] * polyesterComp
-            nylon_hoodie = weight[hoodie] * nylonComp
+            polyester_hoodie = weights[hoodie] * polyesterComp
+            nylon_hoodie = weights[hoodie] * nylonComp
             
         if shirtType == 'Blouse':
             cotton_blouse = weights[blouse] * cottonComp
-            polyester_blouse = weight[blouse] * polyesterComp
-            nylon_blouse = weight[blouse] * nylonComp
+            polyester_blouse = weights[blouse] * polyesterComp
+            nylon_blouse = weights[blouse] * nylonComp
 
     CO2 = (10.85*cotton_tshirt) + (10.137*polyester_tshirt) + (15.177*nylon_tshirt)
-    print (CO2)
+    print (CO2, 'g of CO2')
 
 #where you specify the filename
 shirtType = get_labels()
