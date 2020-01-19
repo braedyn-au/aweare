@@ -8,7 +8,7 @@ from google.cloud.vision import types
 from google.cloud import vision
 from google.cloud.vision import types
 
-def get_labels(filename = "004.jpg"):
+def get_labels(filename = "longshirt.jpg"):
     credential_path = "cred.json"
     os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
     # Instantiates a client
