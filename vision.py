@@ -10,7 +10,7 @@ from google.cloud.vision import types
 
 #specify filename from front end etc.
 def get_labels(filename = "rs118.jpg"):
-    credential_path = "../cred.json"
+    credential_path = "Users/kasey/Downloads/cred.json"
     os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
     # Instantiates a client
     client = vision.ImageAnnotatorClient()
@@ -46,7 +46,7 @@ def get_labels(filename = "rs118.jpg"):
 
 
 def computeEmissions(shirtType):
-    
+    print(shirtType)
 
 
     cottonComp = int(input("% of Cotton: "))/100 
@@ -62,17 +62,22 @@ def computeEmissions(shirtType):
             nylon_tshirt = weights['tshirt'] * nylonComp
             
         if shirtType == 'Hoodie':
-            cotton_hoodie = weights[hoodie] * cottonComp
-            polyester_hoodie = weights[hoodie] * polyesterComp
-            nylon_hoodie = weights[hoodie] * nylonComp
+            cotton_hoodie = weights['hoodie'] * cottonComp
+            polyester_hoodie = weights['hoodie'] * polyesterComp
+            nylon_hoodie = weights['hoodie'] * nylonComp
             
         if shirtType == 'Blouse':
-            cotton_blouse = weights[blouse] * cottonComp
-            polyester_blouse = weights[blouse] * polyesterComp
-            nylon_blouse = weights[blouse] * nylonComp
+            cotton_blouse = weights['blouse'] * cottonComp
+            polyester_blouse = weights['blouse'] * polyesterComp
+            nylon_blouse = weights['blouse'] * nylonComp
+
+        if shirtType == 'outerwear':
+            cotton_blouse = weights['outerwear'] * cottonComp
+            polyester_blouse = weights['outerwear'] * polyesterComp
+            nylon_blouse = weights['outerwear'] * nylonComp           
 
     CO2 = (10.85*cotton_tshirt) + (10.137*polyester_tshirt) + (15.177*nylon_tshirt)
-    print (CO2, 'g of CO2')
+    print (CO2, 'g of CO2 emmited for the manufacturing process of the ' + shirtType)
 
 #where you specify the filename
 shirtType = get_labels()

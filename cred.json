@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "uofthacks2020",
+  "private_key_id": "7a357e3962d0690cdde6dc68c4e353ba69ae2159",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCluDtcMzUnSaGG\nfSQfN8rrpLkO9JhkaoBSDIAv7sf8KsOKexybPF+gEMrdYSYCtQwcjxUhtf+dQGBx\n7aLFVC3rRMzGRdhfiyaoVWtudo9OI3QnUpNDri/gjuyz7Z1R8YNBnJJ/dsccsNLA\nqTW8342/QKeX0EHTcx+m7/78jfgSNap3qCx9TQ5fNikhnKxdE62e6gqTZO9uWjWO\nB9wt0aT4d8pXMvAtHB3UHt8EZ5eK9t64iuDGYnNx5orE4AGmHpL/64mO3667LsU4\nxU8mmbREJZ8ZC5xPf55P9Z6Tut9lvVIn76yMryBQlauETJAhrgkTyLNSTz1eQpoD\nhH37xTrDAgMBAAECggEABZje3GLYYT7R505zuWAziNjz7SbivMWCFwNYEwZgF8rD\n9vnoge+8lRXsHCULWR0PTymf/5b7jq6dc0ug60RIFsGonuu9/qAfCqFz8vOrLGrz\nId7enXMVJ+L76KnWXe2nzsAAjLCQ0g3A2IP+jiYIzhRbdLuydXdWctd5R8NtxQOf\n/H8jQt3KDjdRSKjDuoDD/9E7aHrfw9mv51P5WijL2DctU9rV4rA7bygdqmDVPrqN\nXe3sFSV9++AA39v5UnYOyP2FYR1sKvL56bPUVkbPsiXgn1dBhLNYUTP+7IwlAi7S\n/SeVefYPrFmTJRwqcEYmnbUY9WZx9ecLADC0KQ/zBQKBgQDpL+e4GFCl2VylP/qS\n/bgcjD6H79C8zZZRldpjLaqpdse1k8JyvQwW4jCXfQQ5fK+08QNyOvrNdUpmieO+\nRQxEwSMBsdtZXPeynqbK9WOqf8FVWordRDtb2A0gmbc8nRuoC+DMwVT/w+CCl0TI\nRRfDWl+VIg6MViKO2H3MBUVTRQKBgQC17qBF5q+fhAOOLWGE9SFVrM9WQtwMYN82\nmjkTNa7RSqJQNLQeqBVVQW/j5Mdk0HwBiLIMhRfVA/SWgyvGp2cqyrBuk8XnzP61\nEz0aLuF/kL5ottN0gpRZEruLvAQIwKu03izBbhKjMOhWW0U+wsksPSxwL/mFy3ba\nZJkhXVxyZwKBgQCCqul564YlqWuU3gkXnT0yIhRYMDYT1lBJX2OE9+4OEBVQ1n+7\ns9u2ZwE7oj5fyFLdXcDEnfA0eWk7lEEeOarqTB/Fr1hu9v2GBgkI6gDzZat8nMP7\nwWRRzvtsLTbUrGT3AdDya9OpjqWcCA/u+Wibe2TcOL1WPl4XFZFIZhu20QKBgF6c\nDmrrcQ8SFss8HEeJNmGYcWYZdNdXFR0PDHlJ5HRgTJJLJhP/MsDYO7iWg36Q0Lv3\neyf5mpAi83HGGuC+s27UYvXOEQ/fUeGWdKMGGCw/eFV6JfKj6UN881zSVIK8t05i\nb4HTnQuSZnBqHFNr9jP0SAS7XhZO3arqv5tTMr0nAoGBAJsJyp4JBNW0lyuJRqVP\nW4YMUtQ3tzmbsEu28PYPgIHsAg/JRtR6TnNhbHtpNSy6wgznyEziY2hZePa4+5g6\nkeI3EWZVEM6apO7F4CgS/X78mhOb/o0CQ0hQ/vqJ3g6xIsytmItFr4gFd3QC505f\nd5ebfrXYKBxfyUq5MtaknLh9\n-----END PRIVATE KEY-----\n",
+  "client_email": "dontcommittogithub@uofthacks2020.iam.gserviceaccount.com",
+  "client_id": "108004497523535461831",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dontcommittogithub%40uofthacks2020.iam.gserviceaccount.com"
+}
