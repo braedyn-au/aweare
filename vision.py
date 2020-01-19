@@ -77,18 +77,18 @@ def computeEmissions(shirtType):
             polyester_outerwear = weights['outerwear'] * polyesterComp
             nylon_outerwear = weights['outerwear'] * nylonComp           
 
-    tCO2 = (10.85*cotton_tshirt) + (10.137*polyester_tshirt) + (15.177*nylon_tshirt)
-    hCO2 = (10.85*cotton_hoodie) + (10.137*polyester_hoodie) + (15.177*nylon_hoodie)
-    bCO2 = (10.85*cotton_blouse) + (10.137*polyester_blouse) + (15.177*nylon_blouse)
-    oCO2 = (10.85*cotton_outerwear) + (10.137*polyester_outerwear) + (15.177*nylon_outerwear)
 
     if shirtType == 'T-shirt':
+        tCO2 = (10.85*cotton_tshirt) + (10.137*polyester_tshirt) + (15.177*nylon_tshirt)
         print (tCO2, 'g of CO2 emmited for the manufacturing process of the ' + shirtType)
     elif shirtType == 'Hoodie':
+        hCO2 = (10.85*cotton_hoodie) + (10.137*polyester_hoodie) + (15.177*nylon_hoodie)
         print (hCO2, 'g of CO2 emmited for the manufacturing process of the ' + shirtType)
     elif shirtType == 'Blouse':
+        bCO2 = (10.85*cotton_blouse) + (10.137*polyester_blouse) + (15.177*nylon_blouse)
         print (bCO2, 'g of CO2 emmited for the manufacturing process of the ' + shirtType)
     elif shirtType == 'Outerwear':
+        oCO2 = (10.85*cotton_outerwear) + (10.137*polyester_outerwear) + (15.177*nylon_outerwear)
         print (oCO2, 'g of CO2 emmited for the manufacturing process of the ' + shirtType)
     else:
         print('cannot identify shirt type... try again')
